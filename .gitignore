@@ -1,0 +1,46 @@
+# Environnements virtuels
+env/
+venv/
+my_new_env/
+*.egg-info/
+
+# Fichiers générés par Jupyter Notebook
+.ipynb_checkpoints/
+
+# Fichiers générés par le système ou l'éditeur
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+*.swp
+Thumbs.db
+
+# Fichiers de logs ou temporaires
+*.log
+*.tmp
+*.bak
+
+# Données sensibles ou volumineuses
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.hdf5
+data/*.parquet
+
+# Modèles ou résultats d'entraînement
+models/
+*.joblib
+*.pkl
+*.h5
+
+# Résultats de sortie
+output/
+*.png
+*.jpg
+*.pdf
+
+# Configurations locales
+*.env
+*.config
+.idea/
+
